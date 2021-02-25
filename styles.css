@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #232526; /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#pagina{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#logo img{
+    width: 130px;
+    height: 65px;
+    margin-top: 15px;
+}
+
+#icon-menu{
+    display: none;
+}
+
+#cabecera{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    box-shadow: 0px 2px 0.3px rgba(0, 0, 0, 0.212);
+}
+
+#cabecera label{
+    display: none;
+    width: 50px;
+    height: 70px;
+    padding: 10px;
+}
+
+#cabecera label:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#cabecera label img{
+    width: 50px;
+    height: 70px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    line-height: 75px;
+    font-size: 18px;
+    transition: all 150ms;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#menu a:hover{
+    color: #71a431;
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+/************** SECCION 1 **************/
+
+#sec1 img{
+    width: 100%;
+}
+
+#img1{
+    display: flex;
+    align-items: flex-end;
+}
+
+#sec1{
+    
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#text1 h1{
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 1px 5px black;
+}
+
+#text1 p{
+    line-height: 25px;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+#text1 a{
+    line-height: 100px;
+    text-decoration: none;
+    color: #71a431;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid #598127;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+/************** SECCION 2 **************/
+
+#sec2{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+#tittle2{
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+#tittle2 h2{
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 1px 5px black;
+}
+
+.text2 p{
+    line-height: 25px;
+    color: white;
+    font-size: 16px;
+    padding: 8px;   
+}
+
+#img2{
+    margin-top: 20px;
+    align-items: center;
+    width: 70%;
+}
+
+#img3{
+    margin-top: 20px;
+}
+
+#img4{
+    margin-top: 20px;
+    align-items: center;
+    width: 70%;
+}
+
+
+/************** SECCION 3 ***************/
+
+#sec3{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1.6fr;
+}
+
+#precio h2{
+    margin-left: 50px;
+    font-size: 56px;
+    color: #598127;
+}
+
+#precio h4{
+    margin-left: 50px;
+    font-size: 24px;
+    color: white;
+}
+
+#text3{
+    color: white;
+    line-height: 25px;
+}
+
+#text3 a{
+    line-height: 100px;
+    text-decoration: none;
+    color: #71a431;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid #598127;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/************** SECCION 4 ***************/
+
+#sec4{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+#img5{
+    width: 80%;
+}
+
+#text4 h2{
+    font-size: 38px;
+    color: white;
+}
+
+#text4 p{
+    line-height: 25px;
+    color: white;
+    font-size: 16px;
+}
+
+/************** SECCION 5 ***************/
+
+#sec5{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#mapa h2{
+    margin-bottom: -50px;
+    font-size: 38px;
+    color: white;
+}
+
+form h2{
+    color: white;
+    text-align: center;
+}
+
+form{
+    background-color: #7474745b;
+    padding: 20px 40px;
+    box-shadow: 0 0 6px 0 rgba(209, 255, 221, 0.8);
+    border-radius: 10px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 35px;
+}
+
+input{
+    background: none;
+    color:  rgba(209, 255, 221, 0.8);
+    font-size: 16px;
+    padding: 6px 6px 6px 3px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+input:focus{
+    outline: none;
+    color: rgb(185, 183, 183);
+}
+
+label{
+    color: #78af34;
+    font-size: 16px;
+    transition: 200ms;
+}
+
+button{
+    background:  #598127;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    height: 40px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+/************** SECCION 6 ***************/
+
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer #icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#icons img{
+    width: 20% ;
+}
+
+#number h4{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+}
+
+#redes{
+    display: flex;
+}
+
+#redes h4{
+    font-size: 22;
+    font-weight: bold;
+    color:white;
+    line-height: 50px;
+}
+
+/************** RESPOSNIVE ***************/
+
+@media (max-width: 1300px){
+
+    #sec1{
+        margin-top: 50px;
+    }
+    #sec1 img{
+        padding-bottom: 200px;
+    }
+    #sec2{
+        margin-top: -50px;
+    }
+}
+
+@media (max-width:1079px){
+    #img2{
+        width: 89%;
+    }
+
+    #img4{
+        width: 89%;
+    }
+
+    #tittle2{
+        margin-top: 80px;
+    }
+
+    #text1 a{
+        font-size: 22px;
+    }
+
+    #text3 a{
+        font-size: 22px;
+    }
+
+    #sec4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #img5{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px){
+    #sec2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text2 img{
+        display: flex;
+        justify-content: center;
+    }
+
+    #img2{
+        width: 60%;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    #img3{
+        width: 40%;
+        margin: 0px auto;
+    }
+
+    #img4{
+        width: 50%;
+        margin: 0px auto;
+    }
+
+    #sec5{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mapa{
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    
+    #menu a{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #sec3{
+        margin-top: 50px;
+    }
+
+    #precio img{
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    #precio h2{
+        font-size: 42px;
+    }
+
+    #precio h4{
+        font-size: 18px;
+    }
+
+    #sec4{
+        margin-top: 50px;
+    }
+
+    #text4 h2{
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width:800px){
+    #sec1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sec1 img{
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    #sec2{
+        margin-top: -200px;
+    }
+
+    #sec3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #precio {
+        margin: 0px auto;
+        margin-bottom: 30px;
+    }
+
+    #precio h2{
+        font-size: 34px;
+    }
+
+    #precio h4{
+        font-size: 22px;
+    }
+
+    #sec4{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #img5{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #cabecera label{
+        display: block;
+        margin-left: 80%;
+    }
+
+    #menu{
+        position: absolute;
+        width: 40%;
+        margin-left: -60%;
+        background-color: rgba(43, 43, 43);
+        transition: 300ms;
+    }
+
+    #menu ul{
+        flex-direction: column; 
+        margin-left: 55%;
+        align-items: center;
+        margin-right: 70%;
+    }
+
+    #menu li{  
+        padding: 5px;
+    }
+
+    #menu li:hover{
+        background-color: rgba(104, 104, 104, 0.356);
+        cursor: pointer;
+    }
+
+    #icon-menu:checked ~ #menu{
+        margin: 0px auto;
+        margin-left: 31%;  
+    }
+}
+
+@media (max-width:600px){
+
+    #logo img{
+        width: 100px;
+        height: 45px;
+    }
+
+    #text1 p{
+        font-size: 15px;
+    }
+
+    .text2 p{
+        font-size: 15px;
+    }
+
+    #text3 p{
+        font-size: 15px;
+    }
+
+    #text4 p{
+        font-size: 15px;
+    }
+
+    #text1 h1{
+        font-size: 30px;
+    }
+
+    #img3{
+        width: 60%;
+    }
+    #tittle2 h2{
+        font-size: 30px;
+    }
+
+    #text4 h2{
+        font-size: 30px;
+    }
+
+    #redes img{
+        width: 110px;
+        height: 28px;
+        margin-top: 10px;
+    }
+
+    #number h4{
+        font-size: 16px;
+    }  
+}
+
+@media (max-width: 384px){
+    #number h4{
+        font-size: 14px;
+    }
+
+    #text1 a{
+        margin-left: 30%;
+        font-size: 16px;
+    }
+
+    #text3 a{
+        font-size: 16px;
+        margin-left: 30%;
+    }
+
+    #redes h4{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+}
+
+
